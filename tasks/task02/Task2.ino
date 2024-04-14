@@ -67,7 +67,7 @@ void Repeat6(){
   else{
     pin6State = LOW;
   }
-  digitalWrite(6, pin5State);
+  digitalWrite(6, pin6State);
 }
 
 void Repeat9(){
@@ -77,7 +77,7 @@ void Repeat9(){
   else{
     pin9State = LOW;
   }
-  digitalWrite(9, pin5State);
+  digitalWrite(9, pin9State);
 }
 
 void Repeat10(){
@@ -87,5 +87,5 @@ void Repeat10(){
   else{
     pin10State = LOW;
   }
-  digitalWrite(10, pin5State);
+  digitalWrite(10, pin10State);
 }
